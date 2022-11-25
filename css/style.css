@@ -1,0 +1,851 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@500 & display=swap');
+
+.envio-gratis{
+  background-color:rgb(255, 199, 88);
+}
+
+/* LOGO DE WHATSAPP */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#19b552;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+} 
+
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+.fondo-nav{
+    margin-bottom: -40px;
+}
+
+
+/* BARRA DE NAVEGACION */
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item a:hover   {
+    color: rgb(255, 199, 88);
+}
+
+.navbar-brand   {
+    height: 50px;
+    width: 150px;
+}
+
+
+/* POR QUE AUTOPARTES GNC LURO */
+.por-que-color{
+  color:rgb(255, 199, 88);
+}
+
+.h2{
+    display:inline-block;
+    font-size: 25px;
+}
+.img    {
+    margin-left: 75px;
+    width: 60px;
+    }
+
+.tamaño-texto-porqueAutopartesgncluro{
+    font-size: 15px;
+}
+
+.subtitulo-gncLuro{
+    font-size: 15px;
+}
+
+
+/* el HOVER hace la transicion de color cuando moves el raton a un texto o boton*/
+
+
+/* LOGO DE LAS CARTAS, COLOR Y TAMAÑO */
+.bi-cart:hover {
+    color: rgb(255, 199, 88)
+}
+.bi-cart   {
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    transition: all 0.4s;
+    
+} 
+
+.bi-telephone:hover {
+    color: rgb(255, 199, 88)
+}
+.bi-telephone   {
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    transition: all 0.4s;
+
+} 
+.bi-search:hover {
+    color: rgb(255, 199, 88)
+
+}
+.bi-search   {
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    transition: all 0.4s;
+} 
+
+.tamaño-texto-nav{
+    font-size: 15px;
+}
+
+
+
+/* PRODUCTOS Y SERVICIOS */
+
+/* tamaño tel tituo de las card:baterias, partes de motor, etc */
+.tamaño-fuente{
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.titulo-productos{
+  font-weight: 600;
+    color: rgb(39, 39, 39);
+    border: solid 2px;
+    border: thin solid rgb(255, 199, 88);
+    border-radius: 10px ;
+    font-size: 25px;
+    padding: 6px;
+}
+.borde-nuestro-producto{
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-top: 70px;
+}
+
+.fondo-productos{
+  font-family: 'Montserrat', sans-serif;
+}
+.fondo-productos:hover{
+  background-color: #999;
+  transition: 0.4s;
+}
+
+
+/* SERVICIOS */
+.titulo-servicios{
+  font-weight: 600;
+  color: rgb(39, 39, 39);
+  border: solid 2px;
+  border: thin solid rgb(255, 199, 88);
+  border-radius: 10px ;
+  font-size: 25px;
+  padding: 6px;
+}
+.borde-nuestro-servicios{
+  margin-left: 260px;
+  margin-right: 260px;
+}
+
+.fondo-servicios{
+  font-family: 'Montserrat', sans-serif;
+}
+.fondo-servicios:hover{
+  background-color: rgb(190, 187, 187) ;
+  transition: 0.4s;
+}
+
+
+.logo-tienda:hover{
+  color: rgb(255, 199, 88);
+  transition: 0.4s;
+}
+
+.logo-Billetera:hover{
+  color: rgb(255, 199, 88);
+  transition: 0.4s;
+}
+
+.logoCaja:hover{
+  color: rgb(255, 199, 88);
+  transition: 0.4s;
+}
+
+
+
+/* ELEGIR LOS PRODUCTOS, PAGAR CON MERCADO PAGO, RECIBI LOS PRODUCTOS */
+.tamaño-logo-metodosYproductos{
+  font-size: 40px;
+}
+
+.borde-medio-de-pago{
+  border-left: solid 2px;
+  border-right: solid 2px;
+  border-color: rgb(255, 199, 88);
+}
+
+.tamaño-titulo{
+  font-size: 20px;
+}
+
+.tamaño-parrafo{
+  font-size: 15px;
+}
+
+
+/* FOOTER */
+.instagram:hover   {
+    color: rgb(139, 56, 187);
+    transition: all 0.4s;
+}
+.facebook:hover{
+    color: rgb(59, 89, 152);
+    transition: all 0.4s;
+}
+.whatsapp:hover{
+    color: rgb(20, 157, 20);
+    transition: all 0.4s;
+}
+.tamaño-logo-contacto{
+    font-size: 25px;
+}
+
+.boton-contactar{
+background-color: rgb(120, 120, 120);
+border: solid rgb(120, 120, 120);
+border-radius: 10px;
+}
+.boton-contactar:hover{
+  background-color: rgb(255, 199, 88);
+  border: solid rgb(255, 199, 88);
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.fondo-derechosReservados{
+margin-bottom: -0px;
+}
+.diseño-footer{
+  color:rgb(255, 255, 255);
+}
+.diseño-footer:hover{
+color: rgb(255, 199, 88);
+}
+
+
+
+
+ /* tamaño de la barra de scroll  */
+ body::-webkit-scrollbar{
+  width: 15px;
+}
+/* color del boton de scrool  */
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(41, 41, 41);
+  border-radius: 8px;
+  border: 3px solid rgb(255, 255, 255);
+}
+body::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(101, 101, 101);
+}
+
+
+/* ANIMACION */
+
+/* translateY(-60px) eleva el objeto hacia arriba, sin el translateY(-60px) el objeto se agranda desde el centro */
+/* poner transision de 0.3s para que no sea tan tedioso para el usuario */
+/* animation-delay:3s;   para ue haga la animacion antes que el otro, agregar los segundos para que se junte con otras animaciones ej: en el texto del navbar */
+.tarjetita-2:hover{
+    transform: scale(1.1) translateY(-60px);  
+    transition: 0.3s;
+}
+
+.efecto-agrandarobjeto:hover{
+    transform: scale(1.1);  
+    transition: 0.3s;
+}
+
+
+
+/* animista */
+.rotate-top{-webkit-animation:rotate-top .5s cubic-bezier(.455,.03,.515,.955) both;animation:rotate-top .5s cubic-bezier(.455,.03,.515,.955) both}
+
+ @-webkit-keyframes rotate-top{0%{-webkit-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:top;transform-origin:top}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);-webkit-transform-origin:top;transform-origin:top}}@keyframes rotate-top{0%{-webkit-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:top;transform-origin:top}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);-webkit-transform-origin:top;transform-origin:top}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--PRODUCTOS -->
+<div class="fondo">
+    <!-- Rounded crea un borde circular en los costados del bacgraund del del titulo del card, shadow crea una sombra y h-100 aumento el alto de las card -->
+    <div><h2 class="text-center mt-5 pt-5">BATERIAS DE AUTO</h2></div>
+    <div class="row row-cols-1 row-cols-md-4 g-4 mt-3 me-3 ms-3 ">
+        <div class="col ">
+            <div class="card shadow p-3 bg-body rounded">
+        <img src="../IMAGENES/BATERIAS/bateria 1.jpg" class="card-img-top" alt="...">
+        <div>
+            <h5 class="text-center">Batería 12 V 45 AH</h5>
+            <p>CÓDIGO: B11CR</p>
+            <p>Largo X
+                19.10cm
+                </p>
+            <p>Alto Y
+                17.80cm
+                </p>
+            <p>Ancho Z
+                17.20cm</p>
+            <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+            <p></p>
+            <p></p>
+        </div>
+      </div>
+        </div>
+        <div class="col ">
+            <div class="card shadow p-3 bg-body rounded">
+              <img src="../IMAGENES/BATERIAS/bateria 2.jpg" class="card-img-top" alt="...">
+              <div>
+                  <h5 class="text-center">Batería 12 V 65 AH</h5>
+                  <p>CÓDIGO: B14CR</p>
+                  <p>Largo X
+                    24.20cm
+                      </p>
+                  <p>Alto Y
+                    18.00cm
+                      </p>
+                  <p>Ancho Z
+                    17.30cm</p>
+                  <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                  <p></p>
+                  <p></p>
+              </div>
+            </div>
+              </div>
+              <div class="col ">
+                <div class="card shadow p-3 bg-body rounded">
+                  <img src="../IMAGENES/BATERIAS/bateria 3.jpg" class="card-img-top" alt="...">
+                  <div>
+                      <h5 class="text-center">Batería 12 V 75 AH</h5>
+                      <p>CÓDIGO: B26CR</p>
+                      <p>Largo X
+                        26.20cm
+                          </p>
+                      <p>Alto Y
+                        17.80cm
+                          </p>
+                      <p>Ancho Z
+                        17.00cm</p>
+                      <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                      <p></p>
+                      <p></p>
+                  </div>
+                </div>
+                  </div>
+                  <div class="col ">
+                    <div class="card shadow p-3 bg-body rounded">
+                      <img src="../IMAGENES/BATERIAS/bateria 4.jpg" class="card-img-top" alt="...">
+                      <div>
+                          <h5 class="text-center">Batería 12 V 100 AH</h5>
+                          <p>CÓDIGO: B29CR</p>
+                          <p>Largo X
+                            32.70cm
+                              </p>
+                          <p>Alto Y
+                            21.50cm
+                              </p>
+                          <p>Ancho Z
+                            17.00cm</p>
+                          <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                          <p></p>
+                          <p></p>
+                      </div>
+                    </div>
+                      </div>
+                      <div class="col ">
+                        <div class="card shadow p-3 bg-body rounded">
+                          <img src="../IMAGENES/BATERIAS/bateria 5.jpg" class="card-img-top" alt="...">
+                          <div>
+                                <h5 class="text-center">Batería 12V 45Ah.</h5>
+                                <p>CÓDIGO: B18FX</p>
+                                <p>Largo X
+                                21.20cm
+                                    </p>
+                                <p>Alto Y
+                                17.50cm
+                                    </p>
+                                <p>Ancho Z
+                                17.50cm</p>
+                              <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                              <p></p>
+                              <p></p>
+                          </div>
+                        </div>
+                          </div>
+                          <div class="col ">
+                            <div class="card shadow p-3 bg-body rounded">
+                              <img src="../IMAGENES/BATERIAS/bateria 6.jpg" class="card-img-top" alt="...">
+                              <div>
+                                  <h5 class="text-center">Batería 12V 48Ah</h5>
+                                  <p>CÓDIGO: B21FX</p>
+                                  <p>Largo X
+                                    24.20cm
+                                      </p>
+                                  <p>Alto Y
+                                    17.50cm
+                                      </p>
+                                  <p>Ancho Z
+                                    17.50cm</p>
+                                  <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                                  <p></p>
+                                  <p></p>
+                              </div>
+                            </div>
+                              </div>
+                              <div class="col ">
+                                <div class="card shadow p-3 bg-body rounded">
+                                  <img src="../IMAGENES/BATERIAS/bateria 7.jpg" class="card-img-top" alt="...">
+                                  <div>
+                                      <h5 class="text-center">Batería 12V 50Ah.</h5>
+                                      <p>CÓDIGO: B20FX</p>
+                                      <p>Largo X
+                                        21.20cm
+                                          </p>
+                                      <p>Alto Y
+                                        19.00cm
+                                          </p>
+                                      <p>Ancho Z
+                                        17.50cm</p>
+                                      <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                                      <p></p>
+                                      <p></p>
+                                  </div>
+                                </div>
+                                  </div><div class="col ">
+                                    <div class="card shadow p-3 bg-body rounded">
+                                      <img src="../IMAGENES/BATERIAS/bateria 8.jpg" class="card-img-top" alt="...">
+                                      <div>
+                                          <h5 class="text-center">Batería 12V 60 Ah.</h5>
+                                          <p>CÓDIGO: B22FX</p>
+                                          <p>Largo X
+                                            24.20cm
+                                              </p>
+                                          <p>Alto Y
+                                            17.50cm
+                                              </p>
+                                          <p>Ancho Z
+                                            17.50cm</p>
+                                          <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                                          <p></p>
+                                          <p></p>
+                                      </div>
+                                    </div>
+                                      </div>
+  </div>
+</div>
+
+<div class="fondo">
+    <!-- Rounded crea un borde circular en los costados del bacgraund del del titulo del card, shadow crea una sombra y h-100 aumento el alto de las card -->
+    <div><h2 class="text-center mt-5 pt-5">BATERIAS DE MOTO</h2></div>
+    <div class="row row-cols-1 row-cols-md-4 g-4 mt-3 me-3 ms-3 ">
+        <div class="col ">
+            <div class="card shadow p-3 bg-body rounded">
+        <img src="../IMAGENES/BATERIAS/motos/bateria 1.jpg" class="card-img-top" alt="...">
+        <div>
+            <h5 class="text-center">Característica: 12 V 4 Ah</h5>
+            <p>CÓDIGO: YTX5L-BS</p>
+            <p>Largo X
+                11.40cm
+                </p>
+            <p>Alto Y
+                10.60cm
+                </p>
+            <p>Ancho Z
+                7.10cm</p>
+            <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+            <p></p>
+            <p></p>
+        </div>
+      </div>
+        </div>
+        <div class="col ">
+            <div class="card shadow p-3 bg-body rounded">
+              <img src="../IMAGENES/BATERIAS/motos/bateria 2.jpg" class="card-img-top" alt="...">
+              <div>
+                  <h5 class="text-center">Característica: 6 V 2 AH</h5>
+                  <p>CÓDIGO: 6N2-2A</p>
+                  <p>Largo X
+                    7.00cm
+                      </p>
+                  <p>Alto Y
+                    9.60cm
+                      </p>
+                  <p>Ancho Z
+                    4.70cm</p>
+                  <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                  <p></p>
+                  <p></p>
+              </div>
+            </div>
+        </div>
+        <div class="col ">
+                <div class="card shadow p-3 bg-body rounded">
+                  <img src="../IMAGENES/BATERIAS/motos/bateria 3.jpg" class="card-img-top" alt="...">
+                  <div>
+                      <h5 class="text-center">Característica: 6 V 4 AH</h5>
+                      <p>CÓDIGO: 6N4-2A</p>
+                      <p>Largo X
+                        7.10cm
+                          </p>
+                      <p>Alto Y
+                        9.60cm
+                          </p>
+                      <p>Ancho Z
+                        7.10cm</p>
+                      <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                      <p></p>
+                      <p></p>
+                  </div>
+                </div>
+        </div>
+        <div class="col ">
+                <div class="card shadow p-3 bg-body rounded">
+                    <img src="../IMAGENES/BATERIAS/motos/bateria 4.jpg" class="card-img-top" alt="...">
+                    <div>
+                          <h5 class="text-center">Característica: 6 V 4 AH</h5>
+                          <p>CÓDIGO: 6N4B-2A</p>
+                          <p>Largo X
+                            10.20cm
+                              </p>
+                          <p>Alto Y
+                            9.60cm
+                              </p>
+                          <p>Ancho Z
+                            4.80cm</p>
+                          <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                          <p></p>
+                          <p></p>
+                    </div>
+                </div>
+        </div>
+        <div class="col ">
+            <div class="card shadow p-3 bg-body rounded">
+                    <img src="../IMAGENES/BATERIAS/motos/bateria 5.jpg" class="card-img-top" alt="...">
+                <div>
+                    <h5 class="text-center">Característica: 6 V 6 AH</h5>
+                        <p>CÓDIGO: 6N6-3B</p>
+                            <p>Largo X
+                                9.90cm
+                                </p>
+                            <p>Alto Y
+                                12.10cm
+                                </p>
+                            <p>Ancho Z
+                                5.70cm</p>
+                            <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                            <p></p>
+                            <p></p>
+                </div>
+            </div>
+        </div>
+                          <div class="col ">
+                            <div class="card shadow p-3 bg-body rounded">
+                              <img src="../IMAGENES/BATERIAS/motos/bateria 6.jpg" class="card-img-top" alt="...">
+                              <div>
+                                  <h5 class="text-center">Característica: 6 V 11 AH</h5>
+                                  <p>CÓDIGO: 6N11A-1B</p>
+                                  <p>Largo X
+                                    12.20cm
+                                      </p>
+                                  <p>Alto Y
+                                    13.10cm
+                                      </p>
+                                  <p>Ancho Z
+                                    6.20cm</p>
+                                  <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                                  <p></p>
+                                  <p></p>
+                              </div>
+                            </div>
+                              </div>
+                              <div class="col ">
+                                <div class="card shadow p-3 bg-body rounded">
+                                  <img src="../IMAGENES/BATERIAS/motos/bateria 7.jpg" class="card-img-top" alt="...">
+                                  <div>
+                                      <h5 class="text-center">Característica: 12 V 5 AH</h5>
+                                      <p>CÓDIGO: 12N5-3B</p>
+                                      <p>Largo X
+                                        12.10cm
+                                          </p>
+                                      <p>Alto Y
+                                        13.10cm
+                                          </p>
+                                      <p>Ancho Z
+                                        6.10cm</p>
+                                      <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                                      <p></p>
+                                      <p></p>
+                                  </div>
+                                </div>
+                                  </div><div class="col ">
+                                    <div class="card shadow p-3 bg-body rounded">
+                                      <img src="../IMAGENES/BATERIAS/motos/bateria 8.jpg" class="card-img-top" alt="...">
+                                      <div>
+                                          <h5 class="text-center">Característica: 12 V 7 AH</h5>
+                                          <p>CÓDIGO: 12N7-3B</p>
+                                          <p>Largo X
+                                            13.70cm
+                                              </p>
+                                          <p>Alto Y
+                                            13.50cm
+                                              </p>
+                                          <p>Ancho Z
+                                            7.60cm</p>
+                                          <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                                          <p></p>
+                                          <p></p>
+                                      </div>
+                                    </div>
+                                      </div>
+  </div>
+</div>
+
+<div class="fondo">
+    <!-- Rounded crea un borde circular en los costados del bacgraund del del titulo del card, shadow crea una sombra y h-100 aumento el alto de las card -->
+    <div><h2 class="text-center mt-5 pt-5">BATERIAS DE CAMIONES</h2></div>
+    <div class="row row-cols-1 row-cols-md-4 g-4 mt-3 me-3 ms-3 ">
+        <div class="col ">
+            <div class="card shadow p-3 bg-body rounded">
+        <img src="../IMAGENES/BATERIAS/camiones/bateria 1.jpg" class="card-img-top" alt="...">
+        <div>
+            <h5 class="text-center">Batería 12 V 100 AH</h5>
+            <p>CÓDIGO: B29CR</p>
+            <p>Largo X
+                32.70cm
+                </p>
+            <p>Alto Y
+                21.50cm
+                </p>
+            <p>Ancho Z
+                17.00cm</p>
+            <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+            <p></p>
+            <p></p>
+        </div>
+      </div>
+        </div>
+        <div class="col ">
+            <div class="card shadow p-3 bg-body rounded">
+              <img src="../IMAGENES/BATERIAS/camiones/bateria 2.jpg" class="card-img-top" alt="...">
+              <div>
+                  <h5 class="text-center">Batería 12 V 180 AH</h5>
+                  <p>CÓDIGO: B31CR</p>
+                  <p>Largo X
+                    47.30cm
+                      </p>
+                  <p>Alto Y
+                    24.30cm
+                      </p>
+                  <p>Ancho Z
+                    20.70cm</p>
+                  <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                  <p></p>
+                  <p></p>
+              </div>
+            </div>
+        </div>
+        <div class="col ">
+                <div class="card shadow p-3 bg-body rounded">
+                  <img src="../IMAGENES/BATERIAS/camiones/bateria 3.jpg" class="card-img-top" alt="...">
+                  <div>
+                      <h5 class="text-center">Batería 12V 170Ah.</h5>
+                      <p>CÓDIGO: B33FX</p>
+                      <p>Largo X
+                        51.20cm
+                          </p>
+                      <p>Alto Y
+                        23.70cm
+                          </p>
+                      <p>Ancho Z
+                        21.30cm</p>
+                      <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                      <p></p>
+                      <p></p>
+                  </div>
+                </div>
+        </div>
+        <div class="col ">
+                <div class="card shadow p-3 bg-body rounded">
+                    <img src="../IMAGENES/BATERIAS/camiones/bateria 4.jpg" class="card-img-top" alt="...">
+                    <div>
+                          <h5 class="text-center">Batería 12V 200Ah.</h5>
+                          <p>CÓDIGO: B34FX</p>
+                          <p>Largo X
+                            51.60cm
+                              </p>
+                          <p>Alto Y
+                            24.00cm
+                              </p>
+                          <p>Ancho Z
+                            27.20cm</p>
+                          <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                          <p></p>
+                          <p></p>
+                    </div>
+                </div>
+        </div>
+        <div class="col ">
+            <div class="card shadow p-3 bg-body rounded">
+                    <img src="../IMAGENES/BATERIAS/camiones/bateria 5.jpg" class="card-img-top" alt="...">
+                <div>
+                    <h5 class="text-center">Batería 12 V 110 AH</h5>
+                        <p>CÓDIGO: B30CR</p>
+                            <p>Largo X
+                                35.60cm
+                                </p>
+                            <p>Alto Y
+                                23.00cm
+                                </p>
+                            <p>Ancho Z
+                                17.30cm</p>
+                            <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                            <p></p>
+                            <p></p>
+                </div>
+            </div>
+        </div>
+                          <div class="col ">
+                            <div class="card shadow p-3 bg-body rounded">
+                              <img src="../IMAGENES/BATERIAS/camiones/bateria 6.jpg" class="card-img-top" alt="...">
+                              <div>
+                                  <h5 class="text-center">Batería 12 V 100 AH</h5>
+                                  <p>CÓDIGO: B33CR</p>
+                                  <p>Largo X
+                                    12.20cm
+                                      </p>
+                                  <p>Alto Y
+                                    13.10cm
+                                      </p>
+                                  <p>Ancho Z
+                                    6.20cm</p>
+                                  <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                                  <p></p>
+                                  <p></p>
+                              </div>
+                            </div>
+                              </div>
+                              <div class="col ">
+                                <div class="card shadow p-3 bg-body rounded">
+                                  <img src="../IMAGENES/BATERIAS/camiones/bateria 7.jpg" class="card-img-top" alt="...">
+                                  <div>
+                                      <h5 class="text-center">Batería 12 V 120 AH</h5>
+                                      <p>CÓDIGO: B27CR</p>
+                                      <p>Largo X
+                                        39.80cm
+                                          </p>
+                                      <p>Alto Y
+                                        22.30cm
+                                          </p>
+                                      <p>Ancho Z
+                                        16.80cm</p>
+                                      <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                                      <p></p>
+                                      <p></p>
+                                  </div>
+                                </div>
+                                  </div><div class="col ">
+                                    <div class="card shadow p-3 bg-body rounded">
+                                      <img src="../IMAGENES/BATERIAS/camiones/bateria 8.jpg" class="card-img-top" alt="...">
+                                      <div>
+                                          <h5 class="text-center">Batería 12 V 180 AH</h5>
+                                          <p>CÓDIGO: B32CR</p>
+                                          <p>Largo X
+                                            47.30cm
+                                              </p>
+                                          <p>Alto Y
+                                            24.30cm
+                                              </p>
+                                          <p>Ancho Z
+                                            20.70cm</p>
+                                          <a href="" class="text-decoration-none"><H5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tutuca ">REALIZAR CONSULTA</H5></a>
+                                          <p></p>
+                                          <p></p>
+                                      </div>
+                                    </div>
+                                      </div>
+  </div>
+</div>
+
+
+
+
+   
