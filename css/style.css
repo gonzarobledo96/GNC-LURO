@@ -168,10 +168,15 @@
   font-size: 25px;
   padding: 6px;
 }
-.borde-nuestro-servicios{
-  margin-left: 260px;
-  margin-right: 260px;
+.borde-nuestro-producto{
+  margin-left: 400px;
+  margin-right: 400px;
 }
+.borde-nuestro-servicios{
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
 
 .fondo-servicios{
   font-family: 'Montserrat', sans-serif;
