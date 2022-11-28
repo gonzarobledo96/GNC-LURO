@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- seo -->
+    <meta name="descripcion" content="Sitio dedicado a la venta de autopartes y servicios de tu automovil. ">
+    <meta name="keywords" content="autopartes, prueba hidraulica, instalacion de gnc, renovacion de oblea, venta de baterias" >
     <!-- font-awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- boostrap css-->
@@ -24,22 +27,22 @@
    
 <!-- navbar -->
 <div class="sticky-top"> <!--sticky-top (para que el menu sea pegajoso)-->
-    <div class="container-fluid bg-warning text-white text-center fs-5 pt-1 pb-1">Envío gratis si tu compra supera los $20.000</div> 
-        <nav class="navbar navbar-expand-lg pb-5 barra-principal bg-white ">  
-            <div class="container fondo-nav">
-                <a class="navbar-brand " href="#"><img src="../IMAGENES/GNC-LURO.png" class="img-fluid " alt=""></a>
+    <div class="container-fluid text-white text-center fs-5 pt-1 pb-1  envio-gratis">Envío gratis si tu compra supera los $20.000</div> 
+        <nav class="navbar navbar-expand-lg pb-5 fondo-del-nav">  
+            <div class="container fondo-nav ">
+                <a class="navbar-brand " href="../index.html"><img src="../IMAGENES/GNC-LURO.png" class="img-fluid " alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                         <li class="nav-item ">
-                            <a class="nav-link tamaño-texto-nav" href="#">
+                            <a class="nav-link tamaño-texto-nav" href="../index.html">
                                 <i class="bi bi-house-door-fill"></i>
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link tamaño-texto-nav" href="#">PRODUCTOS</a>
+                            <a class="nav-link tamaño-texto-nav" href="./productos.html">PRODUCTOS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link tamaño-texto-nav" href="#">SERVICIOS</a>
@@ -63,79 +66,136 @@
 
 
 <!--PRODUCTOS -->
-<div class="fondo">
-    <!-- Rounded crea un borde circular en los costados del bacgraund del del titulo del card, shadow crea una sombra y h-100 aumento el alto de las card -->
-    <div><h2 class="text-center mt-5 pt-5">Nuestros productos destacados</h2></div>
-  <div  class="row row-cols-1 row-cols-md-3 g-4 mt-3 me-3 ms-3 ">
-    <a href="" class="text-decoration-none ">
-        <div class="col efecto-agrandarobjeto">
-      <div class="card shadow p-3 bg-body rounded">
-        <img src="../IMAGENES/kit-juntas-y-sellos.jfif" class="card-img-top" alt="...">
-        <div>
-            <h5 class="bg-warning text-white text-center container-fluid border border-5 border-warning">KIT DE JUNTAS Y SELLOS</h5>
-        </div>
-      </div>
-        </div>
-    </a>
-    <a href="" class="text-decoration-none ">
-        <div class="col efecto-agrandarobjeto">
-            <div class="card shadow p-3 mb-5 bg-body ">
-                <img src="../IMAGENES/partes-de-motor.webp" class="card-img-top" alt="...">
-                <div>
-                    <h5 class="bg-warning text-white text-center container-fluid border border-5 border-warning">PARTES DE MOTOR</h5>
-                </div>
+<div class="borde-nuestro-producto">
+    <h2 class="text-center titulo-productos container-fluid">NUESTROS PRODUCTOS DESTACADOS</h2>
+</div>
+<div class="fondo-productos">
+<!-- Rounded crea un borde circular en los costados del bacgraund del del titulo del card, shadow crea una sombra y h-100 aumento el alto de las card -->
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-3 me-3 ms-3 ">
+<a href="./kit de juntas y sellos.html" class="text-decoration-none ">
+    <div class="col efecto-agrandarobjeto">
+  <div class="card shadow-lg p-3 mb-5 bg-body rounded">
+    <img src="../IMAGENES/kit-juntas-y-sellos.jfif" class="card-img-top" alt="...">
+    <div>
+        <h5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tamaño-fuente">KIT DE JUNTAS Y SELLOS</h5>
+    </div>
+  </div>
+    </div>
+</a>
+<a href="./partes de motor.html" class="text-decoration-none ">
+    <div class="col efecto-agrandarobjeto">
+        <div class="card shadow-lg p-3 mb-5 bg-body rounded">
+            <img src="../IMAGENES/partes-de-motor.webp" class="card-img-top" alt="...">
+            <div>
+                <h5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tamaño-fuente container-fluid">PARTES DE MOTOR</h5>
             </div>
         </div>
-    </a>
-    <a href="./Baterias.html" target="_blank" rel="noopener noreferrer" class="text-decoration-none ">
-        <div class="col efecto-agrandarobjeto">
-            <div class="card shadow p-3 bg-body rounded">
-                 <img src="../IMAGENES/baterias.jfif" class="card-img-top" alt="...">
-                <div>
-                    <h5 class="bg-warning text-white text-center container-fluid border border-5 border-warning">BATERIAS</h5>
-                </div>
+    </div>
+</a>
+<a href="./Baterias.html" target="_blank" rel="noopener noreferrer" class="text-decoration-none ">
+    <div class="col efecto-agrandarobjeto ">
+        <div class="card shadow-lg p-3 mb-5 bg-body rounded">
+             <img src="../IMAGENES/baterias.jfif" class="card-img-top " alt="...">
+            <div>
+                <h5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tamaño-fuente ">BATERIAS</h5>
             </div>
         </div>
-    </a>
+    </div>
+</a>
 </div>
 </div>
     
-  <!-- footer -->
-      <footer class="mt-4 fondo-footer bg-black">
-        <div class="container-fluid">
-            <div class="row p-4 pb-2 text-white ">
-                <div class="col-xs-12 col-md-4 col-lg-4 text-center">
-                    <img class="img-fluid" src="../IMAGENES/GNC-LURO.png" width="250px" alt="">
-                    <p class="text-white mt-2">La Tablada,Bs.As</p>
-                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white ">Aviso legal | Política de privacidad | <br> Política de calidad
+
+<!-- Elegi los productos que vas a comprar
+Pagá con el medio de pago que quieras
+Recibí el producto que esperás de forma segura. -->
+<div>
+    <div>
+        <section>
+            <div class="row row-cols-1 row-cols-md-3 g-4 me-3 ms-3 mb-5 mt-4">
+                <div class="text-center">
+                    <i class="bi bi-shop tamaño-logo-metodosYproductos logo-tienda"></i>
+                    <h2 class="text-center tamaño-titulo">Elegi los productos que vas a comprar.</h2>
+                    <p class="text-center tamaño-parrafo">si queres mas de uno sumalos a tu carrito.</p>
+                </div>
+                <div class="text-center borde-medio-de-pago">
+                    <i class="bi bi-wallet2 tamaño-logo-metodosYproductos logo-Billetera"></i>
+                    <h2 class="text-center tamaño-titulo">Pagá con el medio de pago que quieras.</h2>
+                    <p class="text-center tamaño-parrafo">Comprá con seguridad: usamos la tecnología de Mercado Pago.</p>
+                </div>
+                <div class="text-center ">
+                    <i class="bi bi-box-seam tamaño-logo-metodosYproductos logoCaja"></i>
+                    <h2 class="text-center tamaño-titulo">Recibí el producto que esperás de forma segura.</h2>
+                    <p class="text-center tamaño-parrafo">Elegí la forma de entrega que prefieras ¡y listo! Aseguramos tu entrega con Mercado Envíos.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+   <!-- footer -->
+   <footer class=" bg-black ">
+    <div class="container-fluid ">
+        <div class="row p-4 pb-2 text-white ">
+            <div class="col-xs-12 col-md-4 col-lg-4 text-center">
+                <img class="img-fluid" src="../IMAGENES/GNC-LURO.png" width="250px" alt="">
+                <p class="text-white mt-2 ">La Tablada,Bs.As</p>
+                <div>
+                    <p>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="text-decoration-none diseño-footer ">Aviso legal
                     </a>
+                    |
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-decoration-none diseño-footer">Política de privacidad
+                    </a>
+                    |<br>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-decoration-none diseño-footer">Política de calidad
+                    </a>
+                </p>
                 </div>
-                  
-                <div class="col-xs-12 col-md-4 col-lg-4 text-center">
-                    <p class="h5 mb-3 text-center solicitar-informacion">SOLICITAR INFORMACION</p>
-                    <p>¿Necesita mas informacion sobre alguno de nuestross servicios? Pongase en contacto con nosotros y le informaremos sin compromiso.</p>
-                    <a href="../index.html/secciones/contactanos.html" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-warning boton-contactar text-white ">Contactar</button></a>
-                </div>  
-            
-                <div class="col-xs-12 col-md-4 col-lg-4 text-center">
-                    <p class="h5 mb-3 ">Contactos</p>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none tamaño-logo-contacto" href="#"> <i class="fab fa-instagram me-2 instagram "></i></a>
-                    </div>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none tamaño-logo-contacto" href="#"> <i class="fab fa-facebook me-2 facebook"></i></a>
-                    </div>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none tamaño-logo-contacto" href="https://api.whatsapp.com/send?phone=g3845885&text=Hola%20sean%20vienvenidos!"><i class="fab fa-whatsapp me-2 whatsapp"></i></a>
-                    </div>
+            </div>
+              
+            <div class="col-xs-12 col-md-4 col-lg-3 text-center">
+                <p class="h5 mb-3 text-center text-warning">SOLICITAR INFORMACION</p>
+                <p>¿Necesita mas informacion sobre alguno de nuestross servicios? Pongase en contacto con nosotros y le informaremos sin compromiso.</p>
+                <a href="../index.html/secciones/contactanos.html" target="_blank" rel="noopener noreferrer"><button type="button" class=" text-white mb-3 boton-contactar">CONTACTAR</button></a>
+            </div>  
+        
+            <div class="col-xs-12 col-md-4 col-lg-3 text-center ">
+                <h5 class="text-center mb-3 text-warning">HORARIOS DE ATENCION</h5>
+                <P class=" mb-4">Lunes a Sabado de 8 a 19 hs.
+                    <h5 class="text-warning">
+                        ATENCIOM AL CLIENTE
+                        <a class="text-decoration-none" href="https://api.whatsapp.com/send?phone=g3845885&text=Hola%20sean%20vienvenidos!">
+                            <p  class="atencion-al-cliente">+11 4563-3455</p>
+                        </a>
+                    </h5>
+                </P>
+            </div>
+
+
+            <div class="col-xs-12 col-md-4 col-lg-2 text-center">
+                <p class="h5 mb-3 text-warning ">CONTACTOS</p>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none tamaño-logo-contacto" href="#"> <i class="fab fa-instagram me-2 instagram "></i></a>
                 </div>
-                <div class="col-xs-12  ">
-                    <p class="text-white text-center fondo-footer-2 pt-5 ">© Copyright GNC-LURO. Todos los derechos reservados
-                    Diseño web: gonzalo@gmail.com
-                    GNC-LURO 2022</p>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none tamaño-logo-contacto" href="#"> <i class="fab fa-facebook me-2 facebook"></i></a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none tamaño-logo-contacto" href="https://api.whatsapp.com/send?phone=g3845885&text=Hola%20sean%20vienvenidos!"><i class="fab fa-whatsapp me-2 whatsapp"></i></a>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="col-xs-12 pt-1 pb-1  bg-warning">
+      <p class="text-white text-center fondo-derechosReservados">© Copyright GNC-LURO. Todos los derechos reservados
+      Diseño web: gonzalo@gmail.com
+      GNC-LURO 2022</p>
+  </div>
+</footer>
+
+
            
   <!-- whatsapp -->
 <div>
