@@ -438,7 +438,7 @@ margin-right: 400px;}
 
 
 /* MEDIA CUIRE */
- @media screen and (min-width: 769px) and (max-width: 1254px) {   /*cambie el 991 en vex de 1254 */
+ @media screen and (min-width: 769px) and (max-width: 991px) {   /*cambie el 991 en vex de 1254 */
   /* envios gratis-compra $20.000 */
   .envio-gratis{
     background-color:rgb(255, 199, 88);
@@ -451,19 +451,18 @@ margin-right: 400px;}
       display: inline-block;}
     
       .pepito-2{
-        font-size: 20px; 
-        
-        }
+        font-size: 15px; }
+
             .pepito-3{
-            font-size: 36px;
+            font-size: 25px;
             font-weight: 900;}
     
             .pepito-3-segunda-imagen{
-            font-size: 60px;
+            font-size: 25px;
             font-weight: 900;}
     
                 .pepito-4{
-                font-size: 20px;}
+                font-size: 15px;}
     
                     .ver-diseño{
                     text-decoration: none;
@@ -610,7 +609,21 @@ margin-right: 400px;}
                 .texto-footer{
                 font-size: 16px;
                 }
-
+/*PAGINA-BATERIAS DE MOTOS */
+.bateria-motos{
+    margin-left: 30px;
+    margin-right: 30px;}
+    
+        .efecto-agrandarobjeto-motos:hover{
+        transform: scale(1.060);  
+        transition: 0.3s;}
+    
+            .realizar-consulta-diseño{
+            background-color: rgb(255, 199, 88);
+            padding: 5px;}
+    
+                .realizar-consulta-diseño:hover{
+                background-color:rgb(255, 78, 78);}
   }
 
 
@@ -770,7 +783,23 @@ margin-right: 400px;}
             font-size: 13px;
             color:white;}
                 .texto-footer{
-                font-size: 16px;}}   
+                font-size: 16px;}
+
+/*PAGINA-BATERIAS DE MOTOS */
+.bateria-motos{
+    margin-left: 30px;
+    margin-right: 30px;}
+    
+        .efecto-agrandarobjeto-motos:hover{
+        transform: scale(1.060);  
+        transition: 0.3s;}
+    
+            .realizar-consulta-diseño{
+            background-color: rgb(255, 199, 88);
+            padding: 5px;}
+    
+                .realizar-consulta-diseño:hover{
+                background-color:rgb(255, 78, 78);}}   
 
 
   @media screen and (max-width: 768px) {
@@ -924,161 +953,381 @@ font-family: 'Montserrat', sans-serif;
 font-size: 35px;}
     .tamaño-2-media-cuire{
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;}}
-
-
-
-  @media screen and (max-width: 480px) {
-/* envios gratis-compra $20.000 */
-.envio-gratis{
-background-color:rgb(255, 199, 88);
-font-size: 10px;}
-
-/* CARRUSEL */
-.pepe{
-    margin-top: 100px;
-  margin-bottom: 50px;
-  display: inline-block;}
-  .pepito-2{
-    font-size: 6px; }
-        .pepito-3{
-        font-size: 6px;
-        font-weight: 900;}
-        .pepito-3-segunda-imagen{
-        font-size: 60px;
-        font-weight: 900;}
-            .pepito-4{
-            font-size: 6px;}
-                .ver-diseño{
-                text-decoration: none;
-                color: white;
-                background-color: rgb(255, 199, 88);
-                border: solid 11px;
-                border-color: rgb(255, 199, 88);
-                border-radius: 5px;}
-                    .ver-diseño:hover{
-                    background-color: rgb(101, 101, 101);
-                    border: solid 11px;
-                    border-color: rgb(101, 101, 101);
-                    border-radius: 5px;
-                    color:  rgb(255, 199, 88);
-                    transition: 0.3s;
-                    transform: scale(1.200);}
-                        .contactar-diseño{
-                        text-decoration: none;
-                        color: white;
-                        background-color: rgb(255, 199, 88);
-                        border: solid 11px;
-                        border-color: rgb(255, 199, 88);
-                        border-radius: 5px;}
-                            .contactar-diseño:hover{
-                            background-color: rgb(101, 101, 101);
-                            border: solid 11px;
-                            border-color: rgb(101, 101, 101);
-                            border-radius: 5px;
-                            color:  rgb(255, 199, 88);
-                            transition: 0.3s;
-                            transform: scale(1.200);}
-                                .fondo-boton-carrusel-izquierdo{
-                                background-color: black;
-                                border:solid 1px;
-                                border-color: black;}
-                                    .fondo-boton-carrusel-izquierdo:hover{
-                                    background-color: rgb(83, 83, 83);
-                                    border:solid 1px;
-                                    border-color:rgb(83, 83, 83);}
-                                        .fondo-boton-carrusel-derecho{
-                                        background-color: black;
-                                        border:solid 1px;
-                                        border-color: black;}
-                                            .fondo-boton-carrusel-derecho:hover{
-                                            background-color: rgb(83, 83, 83);
-                                            border:solid 1px;
-                                            border-color:rgb(83, 83, 83);}
-
-/* POR QUE AUTOPARTES GNC LURO */
-.por-que-color{
-    color:rgb(255, 199, 88);}
-    .h2{
-        display:inline-block;
-        font-size: 22px;}
-            .img {
-            margin-left: 50px;
-            width: 30px;}
-                .tamaño-texto-porqueAutopartesgncluro{
-                font-size: 15px;}
-                    .subtitulo-gncLuro{
-                    font-size: 15px;}
-                        .subtitulo-gncLuro{
-                        font-size: 12px;}
-                            p ,.card-body{
-                            font-size: 12px;}
-
-/* PRODUCTOS Y SERVICIOS */
-/* tamaño tel tituo de las card:baterias, partes de motor, etc */
-.tamaño-fuente{
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;}
-        .titulo-productos{
-            font-weight: 600;
-            color: rgb(39, 39, 39);
-            border: solid 2px;
-            border: thin solid rgb(255, 199, 88);
-            border-radius: 10px ;
-            font-size: 15px;
-            padding: 6px;}
-                .borde-nuestro-producto{
-                    margin-left: 30px;
-                    margin-right: 30px;
-                    margin-top: 80px;}
-                        .fondo-productos{
-                            font-family: 'Montserrat', sans-serif;}
-
-/* SERVICIOS */
-.titulo-servicios{
-font-weight: 600;
-color: rgb(39, 39, 39);
-border: solid 2px;
-border: thin solid rgb(255, 199, 88);
-border-radius: 10px ;
-font-size: 15px;
-padding: 6px;}
-    .borde-nuestro-servicios{
-    margin-left: 30px;
-    margin-right: 30px;}
-        .fondo-servicios{
-        font-family: 'Montserrat', sans-serif;}
-
-/* LOGO DE LA TIENDA, BILLETERA Y DE LA CAJA */
-.logo-tienda:hover{
-color: rgb(255, 199, 88);
-transition: 0.4s;}
-    .logo-Billetera:hover{
-    color: rgb(255, 199, 88);
-    transition: 0.4s;}
-        .logoCaja:hover{
-        color: rgb(255, 199, 88);
-        transition: 0.4s;}
-
-/* ELEGIR LOS PRODUCTOS, PAGAR CON MERCADO PAGO, RECIBI LOS PRODUCTOS */
-.tamaño-logo-metodosYproductos{
-    font-size: 30px;}
-        .borde-medio-de-pago{
-        border-left: none;
-        border-right: none;
-        border-color: rgb(255, 199, 88);}
-            .tamaño-titulo{
-                font-size: 15px;}
-                    .tamaño-parrafo{
-                    font-size: 10px;}       
-
-/* TEXTO CONTACTENOS */
-.tamaño-1-media-cuire{
-font-family: 'Montserrat', sans-serif;
-font-size: 35px;}
-.tamaño-2-media-cuire{
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;}
 
-}/*# sourceMappingURL=estilos.css.map */
+/*PAGINA-BATERIAS DE MOTOS */
+.bateria-motos{
+    margin-left: 30px;
+    margin-right: 30px;}
+    
+        .efecto-agrandarobjeto-motos:hover{
+        transform: scale(1.060);  
+        transition: 0.3s;}
+    
+            .realizar-consulta-diseño{
+            background-color: rgb(255, 199, 88);
+            padding: 5px;}
+    
+                .realizar-consulta-diseño:hover{
+                background-color:rgb(255, 78, 78);}}
+
+
+
+@media screen and (min-width:481px) and (max-width: 768px) {
+  /* envios gratis-compra $20.000 */
+  .envio-gratis{
+  background-color:rgb(255, 199, 88);
+  font-size: 10px;}
+  
+  /* CARRUSEL */
+  .pepe{
+  margin-bottom: -30px;
+  display: inline-block;}
+      .pepito-2{
+      font-size: 10px; }
+          .pepito-3{
+          font-size: 10px;
+          font-weight: 900;}
+          .pepito-3-segunda-imagen{
+          font-size: 23px;
+          font-weight: 900;}
+              .pepito-4{
+              font-size: 10px;
+            margin-bottom: -1px;}
+                  .ver-diseño{
+                  text-decoration: none;
+                  color: white;
+                  background-color: rgb(255, 199, 88);
+                  border: solid 3px;
+                  border-color: rgb(255, 199, 88);
+                  border-radius: 5px;
+                    font-size: 6px;
+                    margin-bottom:30px ;
+                    }
+                      .ver-diseño:hover{
+                      background-color: rgb(101, 101, 101);
+                      border: solid 3px;
+                      border-color: rgb(101, 101, 101);
+                      border-radius: 5px;
+                      color:  rgb(255, 199, 88);
+                      transition: 0.3s;
+                      transform: scale(1.200);}
+                          .contactar-diseño{
+                            text-decoration: none;
+                            color: white;
+                            background-color: rgb(255, 199, 88);
+                            border: solid 3px;
+                            border-color: rgb(255, 199, 88);
+                            border-radius: 5px;
+                              font-size: 6px;}
+                              .contactar-diseño:hover{
+                              background-color: rgb(101, 101, 101);
+                              border: solid 3px;
+                              border-color: rgb(101, 101, 101);
+                              border-radius: 5px;
+                              color:  rgb(255, 199, 88);
+                              transition: 0.3s;
+                              transform: scale(1.200);}
+                                  .fondo-boton-carrusel-izquierdo{
+                                  background-color: black;
+                                  border:solid 1px;
+                                  border-color: black;}
+                                      .fondo-boton-carrusel-izquierdo:hover{
+                                      background-color: rgb(83, 83, 83);
+                                      border:solid 1px;
+                                      border-color:rgb(83, 83, 83);}
+                                          .fondo-boton-carrusel-derecho{
+                                          background-color: black;
+                                          border:solid 1px;
+                                          border-color: black;}
+                                              .fondo-boton-carrusel-derecho:hover{
+                                              background-color: rgb(83, 83, 83);
+                                              border:solid 1px;
+                                              border-color:rgb(83, 83, 83);}
+  
+  /* POR QUE AUTOPARTES GNC LURO */
+  .por-que-color{
+      color:rgb(255, 199, 88);}
+      .h2{
+          display:inline-block;
+          font-size: 22px;}
+              .img {
+              margin-left: 50px;
+              width: 30px;}
+                  .tamaño-texto-porqueAutopartesgncluro{
+                  font-size: 15px;}
+                      .subtitulo-gncLuro{
+                      font-size: 15px;}
+                          .subtitulo-gncLuro{
+                          font-size: 12px;}
+                              p ,.card-body{
+                              font-size: 12px;}
+  
+  /* PRODUCTOS Y SERVICIOS */
+  /* tamaño tel tituo de las card:baterias, partes de motor, etc */
+  .tamaño-fuente{
+      font-size: 15px;
+      font-weight: 600;
+      text-transform: uppercase;}
+          .titulo-productos{
+              font-weight: 600;
+              color: rgb(39, 39, 39);
+              border: solid 2px;
+              border: thin solid rgb(255, 199, 88);
+              border-radius: 10px ;
+              font-size: 15px;
+              padding: 6px;}
+                  .borde-nuestro-producto{
+                      margin-left: 30px;
+                      margin-right: 30px;
+                      margin-top: 80px;}
+                          .fondo-productos{
+                              font-family: 'Montserrat', sans-serif;}
+  
+  /* SERVICIOS */
+  .titulo-servicios{
+  font-weight: 600;
+  color: rgb(39, 39, 39);
+  border: solid 2px;
+  border: thin solid rgb(255, 199, 88);
+  border-radius: 10px ;
+  font-size: 15px;
+  padding: 6px;}
+      .borde-nuestro-servicios{
+      margin-left: 30px;
+      margin-right: 30px;}
+          .fondo-servicios{
+          font-family: 'Montserrat', sans-serif;}
+  
+  /* LOGO DE LA TIENDA, BILLETERA Y DE LA CAJA */
+  .logo-tienda:hover{
+  color: rgb(255, 199, 88);
+  transition: 0.4s;}
+      .logo-Billetera:hover{
+      color: rgb(255, 199, 88);
+      transition: 0.4s;}
+          .logoCaja:hover{
+          color: rgb(255, 199, 88);
+          transition: 0.4s;}
+  
+  /* ELEGIR LOS PRODUCTOS, PAGAR CON MERCADO PAGO, RECIBI LOS PRODUCTOS */
+  .tamaño-logo-metodosYproductos{
+      font-size: 30px;}
+          .borde-medio-de-pago{
+          border-left: none;
+          border-right: none;
+          border-color: rgb(255, 199, 88);}
+              .tamaño-titulo{
+                  font-size: 15px;}
+                      .tamaño-parrafo{
+                      font-size: 10px;}       
+  
+  /* TEXTO CONTACTENOS */
+  .tamaño-1-media-cuire{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;}
+  .tamaño-2-media-cuire{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;}
+  
+  /*PAGINA-BATERIAS DE MOTOS */
+  .bateria-motos{
+      margin-left: 30px;
+      margin-right: 30px;}
+      
+          .efecto-agrandarobjeto-motos:hover{
+          transform: scale(1.060);  
+          transition: 0.3s;}
+      
+              .realizar-consulta-diseño{
+              font-size: 15px;
+              background-color: rgb(255, 199, 88);
+              padding: 5px;}
+      
+                  .realizar-consulta-diseño:hover{
+                  background-color:rgb(255, 78, 78);}}
+  
+
+
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+  /* envios gratis-compra $20.000 */
+  .envio-gratis{
+  background-color:rgb(255, 199, 88);
+  font-size: 10px;}
+  
+  /* CARRUSEL */
+  .pepe{
+  margin-bottom: -50px;
+  display: inline-block;}
+      .pepito-2{
+      font-size: 6px; }
+          .pepito-3{
+          font-size: 6px;
+          font-weight: 900;}
+          .pepito-3-segunda-imagen{
+          font-size: 15px;
+          font-weight: 900;}
+              .pepito-4{
+              font-size: 6px;
+            margin-bottom: -1px;}
+                  .ver-diseño{
+                  text-decoration: none;
+                  color: white;
+                  background-color: rgb(255, 199, 88);
+                  border: solid 3px;
+                  border-color: rgb(255, 199, 88);
+                  border-radius: 5px;
+                    font-size: 6px;
+                    margin-bottom:30px ;
+                    }
+                      .ver-diseño:hover{
+                      background-color: rgb(101, 101, 101);
+                      border: solid 3px;
+                      border-color: rgb(101, 101, 101);
+                      border-radius: 5px;
+                      color:  rgb(255, 199, 88);
+                      transition: 0.3s;
+                      transform: scale(1.200);}
+                          .contactar-diseño{
+                            text-decoration: none;
+                            color: white;
+                            background-color: rgb(255, 199, 88);
+                            border: solid 3px;
+                            border-color: rgb(255, 199, 88);
+                            border-radius: 5px;
+                              font-size: 6px;}
+                              .contactar-diseño:hover{
+                              background-color: rgb(101, 101, 101);
+                              border: solid 3px;
+                              border-color: rgb(101, 101, 101);
+                              border-radius: 5px;
+                              color:  rgb(255, 199, 88);
+                              transition: 0.3s;
+                              transform: scale(1.200);}
+                                  .fondo-boton-carrusel-izquierdo{
+                                  background-color: black;
+                                  border:solid 1px;
+                                  border-color: black;}
+                                      .fondo-boton-carrusel-izquierdo:hover{
+                                      background-color: rgb(83, 83, 83);
+                                      border:solid 1px;
+                                      border-color:rgb(83, 83, 83);}
+                                          .fondo-boton-carrusel-derecho{
+                                          background-color: black;
+                                          border:solid 1px;
+                                          border-color: black;}
+                                              .fondo-boton-carrusel-derecho:hover{
+                                              background-color: rgb(83, 83, 83);
+                                              border:solid 1px;
+                                              border-color:rgb(83, 83, 83);}
+  
+  /* POR QUE AUTOPARTES GNC LURO */
+  .por-que-color{
+      color:rgb(255, 199, 88);}
+      .h2{
+          display:inline-block;
+          font-size: 22px;}
+              .img {
+              margin-left: 50px;
+              width: 30px;}
+                  .tamaño-texto-porqueAutopartesgncluro{
+                  font-size: 15px;}
+                      .subtitulo-gncLuro{
+                      font-size: 15px;}
+                          .subtitulo-gncLuro{
+                          font-size: 12px;}
+                              p ,.card-body{
+                              font-size: 12px;}
+  
+  /* PRODUCTOS Y SERVICIOS */
+  /* tamaño tel tituo de las card:baterias, partes de motor, etc */
+  .tamaño-fuente{
+      font-size: 15px;
+      font-weight: 600;
+      text-transform: uppercase;}
+          .titulo-productos{
+              font-weight: 600;
+              color: rgb(39, 39, 39);
+              border: solid 2px;
+              border: thin solid rgb(255, 199, 88);
+              border-radius: 10px ;
+              font-size: 15px;
+              padding: 6px;}
+                  .borde-nuestro-producto{
+                      margin-left: 30px;
+                      margin-right: 30px;
+                      margin-top: 80px;}
+                          .fondo-productos{
+                              font-family: 'Montserrat', sans-serif;}
+  
+  /* SERVICIOS */
+  .titulo-servicios{
+  font-weight: 600;
+  color: rgb(39, 39, 39);
+  border: solid 2px;
+  border: thin solid rgb(255, 199, 88);
+  border-radius: 10px ;
+  font-size: 15px;
+  padding: 6px;}
+      .borde-nuestro-servicios{
+      margin-left: 30px;
+      margin-right: 30px;}
+          .fondo-servicios{
+          font-family: 'Montserrat', sans-serif;}
+  
+  /* LOGO DE LA TIENDA, BILLETERA Y DE LA CAJA */
+  .logo-tienda:hover{
+  color: rgb(255, 199, 88);
+  transition: 0.4s;}
+      .logo-Billetera:hover{
+      color: rgb(255, 199, 88);
+      transition: 0.4s;}
+          .logoCaja:hover{
+          color: rgb(255, 199, 88);
+          transition: 0.4s;}
+  
+  /* ELEGIR LOS PRODUCTOS, PAGAR CON MERCADO PAGO, RECIBI LOS PRODUCTOS */
+  .tamaño-logo-metodosYproductos{
+      font-size: 30px;}
+          .borde-medio-de-pago{
+          border-left: none;
+          border-right: none;
+          border-color: rgb(255, 199, 88);}
+              .tamaño-titulo{
+                  font-size: 15px;}
+                      .tamaño-parrafo{
+                      font-size: 10px;}       
+  
+  /* TEXTO CONTACTENOS */
+  .tamaño-1-media-cuire{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;}
+  .tamaño-2-media-cuire{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;}
+  
+  /*PAGINA-BATERIAS DE MOTOS */
+  .bateria-motos{
+      margin-left: 30px;
+      margin-right: 30px;}
+      
+          .efecto-agrandarobjeto-motos:hover{
+          transform: scale(1.060);  
+          transition: 0.3s;}
+      
+              .realizar-consulta-diseño{
+              font-size: 15px;
+              background-color: rgb(255, 199, 88);
+              padding: 5px;}
+      
+                  .realizar-consulta-diseño:hover{
+                  background-color:rgb(255, 78, 78);}}
+  
+  
+  
+                  
+                   
+                
+
+/*# sourceMappingURL=estilos.css.map */
