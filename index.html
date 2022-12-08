@@ -24,12 +24,11 @@
 </head> 
 <body>
 <!-- navbar -->
-<div>hola mundo</div>
 <div class="sticky-top "> <!--sticky-top (para que el menu sea pegajoso)-->
-    <div class="container-fluid text-white text-center fs-5 pt-1 pb-1 envio-gratis">Envío gratis si tu compra supera los $20.000</div> 
+    <div class="container-fluid text-white text-center  pt-1 pb-1 envio-gratis">Envío gratis si tu compra supera los $20.000</div> 
         <nav class="navbar navbar-expand-lg pb-5 fondo-del-nav ">  
             <div class="container fondo-nav">
-                <a class="navbar-brand " href="./index.html" rel="noopener noreferrer"><img src="./IMAGENES/GNC-LURO.png" class="img-fluid " alt=""></a>
+                <a class="navbar-brand " href="./index.html" rel="noopener noreferrer"><img src="./IMAGENES/GNC-LURO.png" class="img-fluid" alt="fondo de pantalla"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -41,20 +40,28 @@
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link tamaño-texto-nav" target="_blank" href="./secciones/productos.html" rel="noopener noreferrer">PRODUCTOS</a>
+                            <a class="nav-link tamaño-texto-nav"  href="#productos" rel="noopener noreferrer">PRODUCTOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link tamaño-texto-nav" href="#"  rel="noopener noreferrer">SERVICIOS</a>
+                            <a class="nav-link tamaño-texto-nav" href="#servicios"  rel="noopener noreferrer">SERVICIOS</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link tamaño-texto-nav"  href="#"  rel="noopener noreferrer">OBTENER PRESUPUESTO</a>
-                                </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  USUARIOS DE GNC
+                                </a>
+                                <ul class="dropdown-menu nav-usuarios-de-gnc ">
+                                  <li><a class="dropdown-item text-black" href="#" rel="noopener noreferrer">COMO ELEGIR UN EQUIPO DE GNC?</a></li>
+                                  <li><a class="dropdown-item text-black" href="#" rel="noopener noreferrer">PREGUNTAS FRECUENTES</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item text-black" href="#" rel="noopener noreferrer">RECOMENDACIONES DE SEGURIDAD</a></li>
+                                </ul>
+                              </li>
                                 <li class="nav-item">
-                                    <a class="nav-link tamaño-texto-nav"  href="#"  rel="noopener noreferrer">CONTACTAR</a>
+                                    <a class="nav-link tamaño-texto-nav"  href="#contactar"  rel="noopener noreferrer">CONTACTAR</a>
                                     </li>
                                     </ul>
                                     <form class="d-flex" role="search">
-                                        <span><a href="./tienda.html" target="_blank" rel="noopener noreferrer"><i class="bi bi-cart"></i></a></span>
+                                        <span><a href="#" target="_blank" rel="noopener noreferrer"><i class="bi bi-cart"></i></a></span>
                                         <span><i class="bi bi-telephone ms-2 me-2"></i></span>
                                         <span><i class="bi bi-search"></i></span>
                                         </form>
@@ -62,30 +69,63 @@
                                         </div>
                                         </nav>
                                         </div>
- 
-  <!-- carrusel -->
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                                
+
+
+    <!--CARRUSEL  -->
+    <!-- data-bs-ride="carousel" agregar despues del class -->
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" >
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./IMAGENES/prueba.png" class="d-block w-100" alt="...">
+        <!-- data-bs-interval="8000" va en el carousel-item -->
+      <div class="carousel-item active" >
+        <img src="./IMAGENES/prueba - copia.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block pepe">
+            <p class="pepito-2 scale-in-ver-top"> Taller con mas de 30 años de experiencia en GNC e inyección electrónica. </p>
+            <h5 class="pepito-3-segunda-imagen scale-in-ver-bottom">GNC LURO</h5>
+            <p class="pepito-4 scale-in-ver-bottom mb-5">Tienda De Repuestos Para Automóviles en Villa Madero
+            </p>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="./IMAGENES/prueba.png" class="d-block w-100" alt="...">
+      <!-- data-bs-interval="8000" va en el carousel-item -->
+      <div class="carousel-item" >
+        <img src="./IMAGENES/gnc-fondo -carrussel.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="pepe  mt-5"> 
+            <p class="pepito-2 scale-in-ver-top">Bienvenidos a GNC-LURO</p>
+            <p class="pepito-3 scale-in-ver-bottom">INSTALACIÓN-SERVICE-ACTUALIZACIÓN DE GNC</p> 
+            <p class="pepito-4 scale-in-ver-bottom ">Tenemos ahora 12 y ahora 18. Aprovecha sus beneficios!</p>
+        <div >  
+            <a href="./secciones/instalacion de gnc.html"><p class="d-inline-block ver-diseño me-5">VER</p></a>
+            <a href="#contactar"><p class="d-inline-block contactar-diseño">CONTACTAR</p></a>
+        </div>
+          </h5>
+        </div>
       </div>
+      <!-- data-bs-interval="8000" va en el carousel-item -->
       <div class="carousel-item">
-        <img src="./IMAGENES/prueba.png" class="d-block w-100" alt="...">
+        <img src="./IMAGENES/prueba-hidraulica-cilindros-gnc-cymmateriales.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block pepe">
+            <p class="pepito-2 scale-in-ver-top pt-5">LLamanos y consultanos</p>
+            <h5 class="pepito-3-segunda-imagen scale-in-ver-bottom">PRUEBA HIDRAULICA</h5>
+            <p class="pepito-4 scale-in-ver-bottom">Trae tu auto para revision hidraulica.</p>
+            <div >  
+                <a href="#contactar"><p class="d-inline-block ver-diseño me-5">VER</p></a>
+                <a href="#contactar"><p class="d-inline-block contactar-diseño">CONTACTAR</p></a>
+            </div>
+        </div>
       </div>
     </div>
-    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon bg-warning " aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon fondo-boton-carrusel-izquierdo" aria-hidden="true"></span>
+      <span class="visually-hidden ">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon bg-warning " aria-hidden="true"></span>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon fondo-boton-carrusel-derecho" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
- 
+
+
 <!-- informacion de la pagina -->
 <div class="text-center mt-4">
     <h2 class="h2">¿</h2>
@@ -93,10 +133,10 @@
     <h2 class="h2">autopartes GNC LURO?</h2>
 </div>
 
-<div class="row row-cols-1 row-cols-md-4 g-4 mt-0 me-3 ms-3 tamaño-texto-porqueAutopartesgncluro ">
+<div class="row row-cols-2 row-cols-md-4 g-4 mt-0 me-3 ms-3 tamaño-texto-porqueAutopartesgncluro ">
     <div class="col ">
       <div class="shadow p-3 mb-5 bg-body rounded">
-        <img src="./IMAGENES/icon-4.png" class="img" alt="...">
+        <img src="./IMAGENES/icon-4.png" class="img" alt="llave mecanica con engranaje">
         <div class="col">
           <h5 class="text-black container-fluid pt-2 text-center subtitulo-gncLuro">ASISTENCIA TÉCNICA</h5>
           <p class="card-text texto-carrusel pt-3">Diagnosticamos las causas de las averías, a fin de proveer soluciones efectivas bajo condiciones de operación.</p>
@@ -105,7 +145,7 @@
     </div>
     <div class="col">
         <div class="shadow p-3 bg-body rounded">
-          <img src="./IMAGENES/icon-2.png" class="img" alt="...">
+          <img src="./IMAGENES/icon-2.png" class="img" alt="persona atencion al cliente">
           <div class="card-body">
             <h5 class="text-black container-fluid pt-2 text-center subtitulo-gncLuro">SERVICIO POST-VENTA</h5>
             <p class="card-text texto-carrusel pt-3">Nuestro compromiso no termina nunca, para ello, contamos con un buen equipo profesional con capacitación y experiencia en repuestos.</p>
@@ -114,7 +154,7 @@
       </div>
     <div class="col">
         <div class="shadow p-3 bg-body rounded">
-          <img src="./IMAGENES/icon-1.png" class="img" alt="...">
+          <img src="./IMAGENES/icon-1.png" class="img" alt="numero 24">
           <div class="card-body">
             <h5 class="text-black container-fluid pt-2 text-center subtitulo-gncLuro">SERVICIO LAS 24 HS</h5>
             <p class="card-text texto-carrusel pt-3">Procesamos su orden y la enviamos dentro de las 24 hs. Despachamos su pedido por el medio y/o transporte que usted indique. Entregamos en nuestras sucursales sin costo adicional.</p>
@@ -123,7 +163,7 @@
       </div>
       <div class="col">
         <div class=" shadow p-3 bg-body rounded">
-          <img src="./IMAGENES/icon-3.png" class="img" alt="...">
+          <img src="./IMAGENES/icon-3.png" class="img" alt="ubicacion">
           <div class="card-body">
             <h5 class="text-black container-fluid pt-2 text-center subtitulo-gncLuro">SUCURSALES CONECTADAS</h5>
             <p class="card-text texto-carrusel pt-3 ">Nuestros vendedores tienen acceso directo a más de 20.000 referencias, lo que le permite conocer no sólo el estado de su pedido sino el lugar del país donde se encuentra el repuesto que necesita.</p>
@@ -133,16 +173,16 @@
 </div>
 
 <!--PRODUCTOS -->
- <div class="borde-nuestro-producto">
+ <div id="productos" class="borde-nuestro-producto">
         <h2 class="text-center mt-5 titulo-productos container-fluid">NUESTROS PRODUCTOS DESTACADOS</h2>
 </div>
 <div class="fondo-productos">
     <!-- Rounded crea un borde circular en los costados del bacgraund del del titulo del card, shadow crea una sombra y h-100 aumento el alto de las card -->
   <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 me-3 ms-3 ">
-    <a href="" class="text-decoration-none" rel="noopener noreferrer">
+    <a href="./secciones/kit de juntas y sellos.html" class="text-decoration-none" rel="noopener noreferrer">
         <div class="col efecto-agrandarobjeto">
       <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-        <img src="./IMAGENES/kit-juntas-y-sellos.jfif" class="card-img-top" alt="...">
+        <img src="./IMAGENES/kit-juntas-y-sellos.jfif" class="card-img-top" alt="conjunto de juntas y sellos">
         <div>
             <h5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tamaño-fuente">KIT DE JUNTAS Y SELLOS</h5>
         </div>
@@ -152,7 +192,7 @@
     <a href="./secciones/partes de motor.html" class="text-decoration-none" rel="noopener noreferrer">
         <div class="col efecto-agrandarobjeto">
             <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-                <img src="./IMAGENES/partes-de-motor.webp" class="card-img-top" alt="...">
+                <img src="./IMAGENES/partes-de-motor.webp" class="card-img-top" alt="partes de motor">
                 <div>
                     <h5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tamaño-fuente container-fluid">PARTES DE MOTOR</h5>
                 </div>
@@ -162,7 +202,7 @@
     <a href="./secciones/Baterias.html" target="_blank" rel="noopener noreferrer" class="text-decoration-none ">
         <div class="col efecto-agrandarobjeto ">
             <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-                 <img src="./IMAGENES/baterias.jfif" class="card-img-top " alt="...">
+                 <img src="./IMAGENES/baterias.jfif" class="card-img-top " alt="3 baterias">
                 <div>
                     <h5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tamaño-fuente ">BATERIAS</h5>
                 </div>
@@ -172,8 +212,8 @@
 </div>
 </div>
 
-<!--PRODUCTOS -->
-<div class="mt-5 borde-nuestro-servicios">
+<!--SERVICIOS -->
+<div id="servicios" class="mt-5 borde-nuestro-servicios">
     <h2 class="text-center titulo-servicios">NUESTROS SERVICIOS DESTACADOS</h2>
 </div>
 <div class="fondo-servicios">
@@ -182,7 +222,7 @@
     <a href="" class="text-decoration-none" rel="noopener noreferrer">
         <div class="col efecto-agrandarobjeto">
       <div class="card shadow-lg p-3 mb-5 bg-body rounded ">
-        <img src="./IMAGENES/prueba-hidraulica.png" class="card-img-top" alt="...">
+        <img src="./IMAGENES/prueba-hidraulica.png" class="card-img-top" alt="prueba hidraulica">
         <div>
             <h5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tamaño-fuente">PRUEBA HIDRAHULICA</h5>
         </div>
@@ -192,17 +232,17 @@
     <a href="" class="text-decoration-none" rel="noopener noreferrer">
         <div class="col efecto-agrandarobjeto">
             <div class="card shadow-lg p-3 mb-5 bg-body rounded ">
-                <img src="./IMAGENES/renovacion de oblea.png" class="card-img-top" alt="...">
+                <img src="./IMAGENES/renovacion de oblea.png" class="card-img-top" alt="logo de renovacion de oblea">
                 <div>
                     <h5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tamaño-fuente">RENOVACION DE OBLEA</h5>
                 </div>
             </div>
         </div>
     </a>
-    <a href="./secciones/Baterias.html" target="_blank" rel="noopener noreferrer" class="text-decoration-none ">
+    <a href="./secciones/instalacion de gnc.html" target="_blank" rel="noopener noreferrer" class="text-decoration-none ">
         <div class="col efecto-agrandarobjeto">
             <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-                 <img src="./IMAGENES/instalacion-gnc.png" class="card-img-top" alt="...">
+                 <img src="./IMAGENES/instalacion-gnc.png" class="card-img-top" alt="logo instalacion de gnc">
                 <div>
                     <h5 class="bg-warning text-white text-center container-fluid border border-5 border-warning tamaño-fuente">INSTALACION DE EQUIPO GNC</h5>
                 </div>
@@ -231,7 +271,7 @@ Recibí el producto que esperás de forma segura. -->
                 </div>
                 <div class="text-center ">
                     <i class="bi bi-box-seam tamaño-logo-metodosYproductos logoCaja"></i>
-                    <h2 class="text-center tamaño-titulo">Recibí el producto que esperás de forma segura.</h2>
+                    <h2 class="text-center tamaño-titulo">Recibí el producto que esperás.</h2>
                     <p class="text-center tamaño-parrafo">Elegí la forma de entrega que prefieras ¡y listo! Aseguramos tu entrega con Mercado Envíos.</p>
                 </div>
             </div>
@@ -239,12 +279,62 @@ Recibí el producto que esperás de forma segura. -->
     </div>
 </div>
 
+
+<!-- CONTACTENOS -->
+<div id="contactar" class="fondo-contactar mb-5">
+    <h1 class="text-center text-white texto-fondo-contactar tamaño-1-media-cuire"><b>CONTACTENOS</b></h1>
+    <h3 class="text-white text-center p-2 texto-fondo-contactar tamaño-2-media-cuire">Para consultas y/o presupuestos, ingrese los datos a continuación, un <br> asesor se estará comunicando a la brevedad.</h3>
+    <div class="row row-cols-1 row-cols-md-2 g-4 mt-3 ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13124.333350167499!2d-58.5077128!3d-34.6778461!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28124e6ab2c86447!2sCarburaci%C3%B3n%20Encendido%20y%20GNC%20Luro!5e0!3m2!1ses!2sar!4v1669904270611!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form class="row g-3 needs-validation container-fluid mt-2" novalidate>
+            <div class="col-md-6 form-floating ">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Nombre</label>
+            </div>
+            <div class="col-md-6 form-floating ">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Apellido</label>
+            </div>
+            <div class="col-md-12 form-floating ">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="col-md-12 form-floating ">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Telefono y/o Celular</label>
+              </div>
+            <div class="col-md-12 form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Direccion</label>
+              </div>
+              <div class="col-md-12 form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Asunto</label>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck"><p class="text-white">
+                    Acepto las <a href="#">condiciones legales</a> de esta web.</p>
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-warning text-white" type="submit">ENVIAR</button>
+              </div>
+          </form>
+    </div>
+</div>
+
   <!-- footer -->
       <footer class=" bg-black ">
         <div class="container-fluid ">
-            <div class="row p-4 pb-2 text-white ">
-                <div class="col-xs-12 col-md-4 col-lg-4 text-center">
-                    <img class="img-fluid" src="./IMAGENES/GNC-LURO.png" width="250px" alt="">
+            <div class="row p-4 pb-2  text-white ">
+                <div class="col-xs-12  col-lg-4 text-center">
+                    <img class="img-fluid" src="./IMAGENES/GNC-LURO.png" width="250px" alt="logo de la empresa">
                     <p class="text-white mt-2 ">La Tablada,Bs.As</p>
                     <div>
                         <p>
@@ -261,15 +351,15 @@ Recibí el producto que esperás de forma segura. -->
                 </div>
                   
                 <div class="col-xs-12 col-md-4 col-lg-3 text-center">
-                    <p class="h5 mb-3 text-center text-warning">SOLICITAR INFORMACION</p>
+                    <p class="h5 mb-3 text-center text-warning texto-footer">SOLICITAR INFORMACION</p>
                     <p>¿Necesita mas informacion sobre alguno de nuestross servicios? Pongase en contacto con nosotros y le informaremos sin compromiso.</p>
-                    <a href="../index.html/secciones/contactanos.html" target="_blank" rel="noopener noreferrer"><button type="button" class=" text-white mb-3 boton-contactar">CONTACTAR</button></a>
+                    <a href="#"  rel="noopener noreferrer"><button type="button" class=" text-white mb-3 boton-contactar">CONTACTAR</button></a>
                 </div>  
             
                 <div class="col-xs-12 col-md-4 col-lg-3 text-center ">
-                    <h5 class="text-center mb-3 text-warning">HORARIOS DE ATENCION</h5>
+                    <h5 class="text-center mb-3 text-warning texto-footer">HORARIOS DE ATENCION</h5>
                     <P class=" mb-4">Lunes a Sabado de 8 a 19 hs.
-                        <h5 class="text-warning">
+                        <h5 class="text-warning texto-footer">
                             ATENCIOM AL CLIENTE
                             <a class="text-decoration-none" href="https://api.whatsapp.com/send?phone=g3845885&text=Hola%20sean%20vienvenidos!" rel="noopener noreferrer">
                                 <p  class="atencion-al-cliente">+11 4563-3455</p>
@@ -280,7 +370,7 @@ Recibí el producto que esperás de forma segura. -->
 
 
                 <div class="col-xs-12 col-md-4 col-lg-2 text-center">
-                    <p class="h5 mb-3 text-warning ">CONTACTOS</p>
+                    <p class="h5 mb-3 text-warning texto-footer">CONTACTOS</p>
                     <div class="mb-2">
                         <a class="text-white text-decoration-none tamaño-logo-contacto" href="#" rel="noopener noreferrer"> <i class="fab fa-instagram me-2 instagram "></i></a>
                     </div>
@@ -307,7 +397,7 @@ Recibí el producto que esperás de forma segura. -->
     <a href="https://api.whatsapp.com/send?phone=g3845885&text=Hola%20sean%20vienvenidos!" class="float" target="_blank" rel="noopener noreferrer">
         <i class="fa fa-whatsapp my-float"></i>
         </a>
-        </div>
+</div>
 
 
 <!-- jqueri -->
