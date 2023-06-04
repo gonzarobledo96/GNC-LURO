@@ -1,3 +1,3 @@
 # GNC-LURO
 
-[Imgur](https://i.imgur.com/XfEDuJU.jpg)
+![Descripción de la imagen](https://i.imgur.com/XfEDuJU.jpg)
